@@ -6,8 +6,12 @@ function ol(child: string): string {
 	return `<ol>${child}</ol>`;
 }
 
-function makeLI(container: (child: string) => string, contents: string[]): string {
-	const liList = [];
+function makeLI(
+	container: (child: string) => string, 
+	contents: string[]
+): string {
+	
+	const liList: string[] = [];
 	
 
 	for (const content of contents) {
