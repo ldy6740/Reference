@@ -6,7 +6,7 @@ const address: [number, string, string] =  [1234, '사용자', '비밀번호'];
 
 let [zipcode, address1] = address;
 
-zipcode = "1234" // 구조분의 할당 시에도 타입 체크 가능
+zipcode = "1234" // 구조분해할당 시에도 타입 체크 가능
 
 type BookInfo = [string, string, number];
 
