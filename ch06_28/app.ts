@@ -11,3 +11,4 @@ const makeObject = (): UniqObject => ({
 
 console.log(makeObject());
 console.log(makeObject());
+console.log("test console");
