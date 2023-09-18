@@ -11,4 +11,5 @@ const makeObject = (): UniqObject => ({
 
 console.log(makeObject());
 console.log(makeObject());
-console.log("test console");
+console.log("test e");
+// 주석
