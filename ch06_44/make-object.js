@@ -1,4 +1,4 @@
-class MeaderListData {
+class HeaderListData {
 	constructor(source, separator = ',') {
 		const rawData = source.split('\n');
 		/**
@@ -35,8 +35,8 @@ class MeaderListData {
 	}
 }
 
-export default class MakeObject extends MeaderListData {
-	toObject = index =>
+export default class MakeObject extends HeaderListData {
+	toObject = index => 
 		this.row(index)
 		.reduce((a, [key, value]) => ({...a, [key]: value}), {});
 	
