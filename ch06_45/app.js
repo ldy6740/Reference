@@ -40,7 +40,7 @@ newObject3.traits.first_name.source_id = 500;
 console.log(sourceObject.traits.first_name.source_id);
 
 
-// 깊은 복사 - 다른 유형들 
+// 깊은 복사 - 다른 유형
 
 function deepCopyObject(obj) {
 	const clone = {};
@@ -65,6 +65,7 @@ newObject4.traits.first_name.source_id = 1000;
 console.log(sourceObject.traits.first_name.source_id);
 
 
+// 병합 유형
 
 const store = {
 	user: null,
